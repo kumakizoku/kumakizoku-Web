@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/froala/design-blocks@master/dist/css/froala_blocks.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/css/froala_editor.pkgd.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.1/css/froala_style.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  </head>
+
+  <body>
+    <header data-block-type="headers" data-id="1" class="" style="background-color: #ffd700">
+      <div class="container">
+        <nav class="navbar">
+          <img src="kumaki.png" height="80" alt="image">
+        </nav>
+      </div>
+    </header>
+    <section class="fdb-block" data-block-type="contents" data-id="2" style="height: 800px;">
+
+      <div class="dropdown select-unit">
+        <!-- 切替ボタンの設定 -->
+        <button type="button" class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          すべての熊
+        </button>
+        <!-- ドロップメニューの設定 -->
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" value="">すべての熊</button></li>
+        </ul>
+      </div><!-- /.dropdown -->
+      
+      <div id="mapid"></div>
+  
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+    </section>
+    <footer class="fdb-block footer-small fp-active" data-block-type="footers" data-id="3" style="background-color: #ffd700">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col fr-box" role="application" style="z-index: 10000;"><div class="fr-wrapper" dir="auto"><div class="fr-element fr-view" dir="auto" contenteditable="true" aria-disabled="false" spellcheck="true"><p>© 2019 熊貴族. All Rights Reserved</p></div></div></div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
